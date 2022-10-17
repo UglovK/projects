@@ -301,6 +301,10 @@ body {
     background: #fff url(../images/clients/map.svg) left 30px top 140px no-repeat;
 }
 
+.section--gray {
+    background-color: #F9F9F9;
+}
+
 .section__title {
     margin-bottom: 40px;
 
@@ -595,4 +599,67 @@ body {
     font-size: 15px;
     color: #585858;
     line-height: 1.4;
+}
+
+
+     /* .Team */
+.team {
+    margin: 0 -15px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.team__col {
+    width: 33.33333%;
+    padding: 0 15px;
+    margin-bottom: 30px;
+}
+
+.team__photo {
+    margin-bottom: 10px;
+
+    box-shadow: 10px 5px 13px rgba(0, 0, 0, .16);
+}
+
+.team__name {
+    margin-bottom: 8px;
+
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    color: #2C2C2C;
+    line-height: 1.2;
+}
+
+.team__prof {
+    margin-bottom: 11px;
+
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #585858;
+}
+
+.team__contacts {
+    font-size: 14px;
+    color: #585858;
+}
+
+.team__contacts li {
+    margin-bottom: 9px;
+}
+
+.team__contacts-icon {
+    margin-right: 7px;
+    width: 16px;
+}
+
+.team__contacts a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.team__contacts a:hover {
+    text-decoration: underline;
 }
